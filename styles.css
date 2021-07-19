@@ -309,7 +309,8 @@ to {
   top: 160vw ;
   left:  18vw;
   position: absolute;
-
+　font-size     : 1vw;
+  font-weight: 800;
  }
 .ho_blog_ph1{
   top: 10vw ;
