@@ -1,0 +1,344 @@
+/* he_logp_area */
+h1{
+  font-family: 'Vidaloka', serif;
+  text-align:center;
+  font-weight:normal;
+
+  }
+
+.he_logo_title1{
+  display:block;
+  font-size:72px;
+  }
+.he_logo_title2{ 
+  display:block;
+  font-size:72px;
+  color:red;
+  }
+  
+  .he_logo_title_tx{
+    display:block;
+  font-size:20x;
+  line-height:10px;
+  }
+
+
+/*he_top_fh_text_erea  */
+  .he_top_fh_text_erea{
+    position: relative;
+   }
+
+  .heder_top_fhoto{
+        position:relative;
+        width : 80vw ;
+  }
+
+  .he_top_fh_text_erea h1 {
+    position: absolute;
+    color: white;
+    top: 20px;
+    right: 20px;
+    max-width: auto;
+    font-size: 4vw;
+    animation-name: fadein; 
+    animation-duration: 10s; 
+  }
+  
+  .he_top_fh_text_erea p {
+    position: absolute;
+    width :60vw;        
+    color: white;
+    top: 10vw;
+    right: 80px;
+    max-width: auto;
+    font-size: 2vw;
+    line-height: 2em;
+    animation-name: fadein; 
+    animation-duration: 10s; 
+  }
+  
+  @keyframes fadein { 
+  from { 
+      opacity: 0; 
+      transform: translateY(20px); 
+  } 
+  to { 
+      opacity: 1; 
+      transform: translateY(0); 
+  } 
+
+  }
+   /*heder_top_photo_btn  */
+
+   .he_top_fh_text_erea a{
+    position: absolute;
+    padding: 8px 16px;
+    top: 27vw ;
+    left:35vw;
+    right:45vw ;
+    text-decoration: none;
+    border-radius : 2%; 
+    font-size     : 1vw;
+    text-align    : center; 
+    background    : rgba(0,0,0,0.6);
+    color:white;
+    line-height   : 1em;
+    cursor        : pointer;
+    border        : 1px solid white;
+    animation-name: fadein; 
+    animation-duration: 10s; 
+   }
+
+   .he_top_fh_text_erea a:hover{
+    color   : rgba(0,0,0,0.6); 
+
+   }
+
+      .he_top_fh_link  {
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        font-size: 2vw;
+        top: 60px;
+        left:20px;
+        right: 80px;
+        height: 50px;
+        width: 15vw;
+        color:white;
+        border:solid;
+        background-color :rgba(0,0,0,0.6);
+      }
+
+
+      /* he_side_menu_area */
+      .he_side_menu{
+       position: relative;
+        top: 15px;
+        }
+
+
+      .he_side_menu_title_top{
+        position:fixed;
+        display:block;
+        top: 190px;
+        left:6vw;
+        font-family: 'Homemade Apple', cursive;
+        font-size:2vw;
+        color: #000000;
+        text-decoration: none;
+        }
+
+      .he_side_menu_title_about{
+        position:fixed;
+        display:block;
+        top: 270px;
+        left:3vw;
+        font-family: 'Homemade Apple', cursive;
+        font-size:2vw;
+        color: #000000;
+        text-decoration: none;
+}
+
+      .he_side_menu_title_info{
+        position:fixed;
+        display:block;
+        top: 340px;
+        left:2vw;
+        font-family: 'Homemade Apple', cursive;
+        font-size:2vw;
+        color: #000000;
+        text-decoration: none;
+}
+
+      .he_side_menu_title_menu{
+        position:fixed;
+        display:block;
+        top: 410px;
+        left:5vw;
+        font-family: 'Homemade Apple', cursive;
+        font-size:2vw;
+        color: #000000;
+        text-decoration: none;
+}
+
+/*main_ph1_text_erea  */
+.main_photo_text_area{
+  position: relative;
+  }
+
+ .main_photo1{
+  width: 80vw ;
+     }
+
+.main_photo1_text h1 {
+  position: absolute;
+  color: white;
+  top: 65vw;
+  right: 80px;
+  max-width: auto;
+  font-size: 4vw;
+  animation-name: main_fadein; 
+  animation-duration: 10s; 
+}
+
+.main_photo1_text p {
+  position: absolute;
+  width :60vw;        
+  color: white;
+  top: 75vw;
+  right: 80px;
+  max-width: auto;
+  font-size: 2vw;
+  line-height: 2em;
+  animation-name: main_fadein ; 
+  animation-duration: 10s; 
+}
+
+@keyframes main_fadein { 
+from { 
+    opacity: 0; 
+    transform: translateY(20px); 
+} 
+to { 
+    opacity: 1; 
+    transform: translateY(0); 
+}
+}
+.main_photo1_text a{
+  position: absolute;
+  padding: 8px 16px;
+  top: 92vw ;
+  left:35vw;
+  right:45vw ;
+  text-decoration: none;
+  border-radius : 2%; 
+  font-size     : 1vw;
+  text-align    : center; 
+  background    : rgba(0,0,0,0.6);
+  color:white;
+  line-height   : 1em;
+  cursor        : pointer;
+  border        : 1px solid white;
+  animation-name: fadein; 
+  animation-duration: 10s; 
+ }
+
+ .main_photo1_text a:hover{
+  color   : rgba(0,0,0,0.6); 
+
+ }
+/*main_ph2_text_erea  */
+.main_photo2_text_area{
+  position: relative;
+  }
+
+ .main_photo2{
+  width: 80vw ;
+     }
+
+.main_photo2_text h1 {
+  position: absolute;
+  color: white;
+  top: 115vw;
+  right: 20px;
+  max-width: auto;
+  font-size: 4vw;
+  animation-name: main_fadein; 
+  animation-duration: 10s; 
+}
+
+.main_photo2_text p {
+  position: absolute;
+  width :60vw;        
+  color: white;
+  top: 125vw;
+  right:5vw;
+  max-width: auto;
+  font-size: 2vw;
+  line-height: 2em;
+  animation-name: main_fadein ; 
+  animation-duration: 10s; 
+}
+
+@keyframes main_fadein { 
+from { 
+    opacity: 0; 
+    transform: translateY(20px); 
+} 
+to { 
+    opacity: 1; 
+    transform: translateY(0); 
+}
+}
+.main_photo2_text a{
+  position: absolute;
+  padding: 8px 16px;
+  top: 142vw ;
+  left:35vw;
+  right:45vw ;
+  text-decoration: none;
+  border-radius : 2%; 
+  font-size     : 1vw;
+  text-align    : center; 
+  background    : rgba(0,0,0,0.6);
+  color:white;
+  line-height   : 1em;
+  cursor        : pointer;
+  border        : 1px solid white;
+  animation-name: fadein; 
+  animation-duration: 10s; 
+ }
+
+ .main_photo2_text a:hover{
+  color   : rgba(0,0,0,0.6); 
+
+ }
+ /* ho_blog_area */
+ .ho_blog_area{
+  
+ 
+ }
+ .ho_blog_fh_area{
+
+  
+
+  
+ }
+ .ho_blog_title{
+  top: 160vw ;
+  left:  18vw;
+  position: absolute;
+
+ }
+.ho_blog_ph1{
+  top: 10vw ;
+  left:  18vw;
+  position:relative;
+  height: 20vw;
+  width: 20vw ;
+
+
+ }
+.ho_blog_ph2{
+  top: 10vw ;
+  left:  22vw;
+  position:relative;
+  height: 20vw;
+  width: 20vw ;
+ }
+.ho_blog_ph3{
+  top: 10vw ;
+  left:  26vw;
+  position:relative;
+  height: 20vw;
+  width: 20vw ;
+ }
+ 
+
+ 
+ 
+
+ 
+ 
+ 
